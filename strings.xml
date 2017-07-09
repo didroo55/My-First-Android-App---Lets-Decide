@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="DecideText">Lets help you decide the best!!</string>
+    <string name="app_name">Lets Decide</string>
+    <string name="ChooseTheBest">Enter Category</string>
+    <string name="ProblemText">Eg. Car..</string>
+    <string name="ButtonDecide">Decide Now</string>
+      <string name="HelpString">or let us explain how we help you</string>
+    
+    
+    
+    <string name="title_activity_get_parameters">GetParameters</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+      <string name="parameterOne">Criteria One. Eg. Milage</string>
+     <string name="parameterTwo">Criteria Two. Eg. Cost</string>
+     <string name="parameterThree">Criteria Three. Eg. Service</string>
+ <string name="parameter_entry_Button">Decide</string>
+ 
+ <string name="title_activity_get_options">GetOptions</string>
+  <string name="optionOne">Choice One</string>
+     <string name="optionTwo">Choice Two</string>
+     <string name="optionThree">Choice Three</string>
+ <string name="option_entry_Button">Decide</string>
+ 
+ 
+ 
+  <string name="rating1">Awesome</string>
+   <string name="rating2">Very Good</string>
+  <string name="rating3">Moderate</string>
+   <string name="rating4">Not Bad</string>
+    <string name="rating5">Yuck!!</string>
+    <string name="option_one_rated">Rate Next</string>
+    
+    <string name="finalDecide">Congratulations! You have made a kick-ass decision</string>
+    
+</resources>
