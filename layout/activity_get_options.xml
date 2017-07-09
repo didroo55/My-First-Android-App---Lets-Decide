@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/White">
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time to Declare Contenders"
+        android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="27sp" 
+     />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:gravity="center"
+        android:textColor="@color/White"
+        android:textSize="27sp" 
+     />
+  <TextView 
+    android:id="@+id/optionsDisplay"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/Black"
+     android:textSize="15sp"
+    android:gravity="center" />
+
+
+  <EditText
+        android:id="@+id/enteroptionOne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/optionOne" ></EditText>
+  
+  <EditText
+        android:id="@+id/enteroptionTwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/optionTwo" ></EditText>
+  
+    <EditText
+        android:id="@+id/enteroptionThree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/optionThree" ></EditText>
+  
+  <Button
+        android:id="@+id/submitOption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_entry_Button"
+   /> 
+    
+
+</LinearLayout>

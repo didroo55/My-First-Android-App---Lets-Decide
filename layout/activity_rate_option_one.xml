@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/White">
+ 
+<TextView
+    android:id="@+id/rateOptionOneTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="27sp" 
+    >
+</TextView>
+
+<TextView
+    android:id="@+id/parameterOneOptionOneText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="10pt">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterOneOptionOneSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+ 
+
+<TextView
+    android:id="@+id/parameterTwoOptionOneText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10pt"
+    android:textColor="@color/Black">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterTwoOptionOneSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+ 
+<TextView
+    android:id="@+id/parameterThreeOptionOneText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="10pt">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterThreeOptionOneSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+
+<Button
+        android:id="@+id/optionOneRated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_one_rated"
+    
+        
+   /> 
+    </LinearLayout>

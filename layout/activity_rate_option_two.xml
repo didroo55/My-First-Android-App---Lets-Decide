@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/White">
+ 
+<TextView
+    android:id="@+id/rateOptionTwoTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/DarkBlue"
+    android:gravity="center"
+        android:textSize="27sp" >
+</TextView>
+
+<TextView
+    android:id="@+id/parameterOneOptionTwoText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="10pt">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterOneOptionTwoSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+ 
+
+<TextView
+    android:id="@+id/parameterTwoOptionTwoText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="10pt">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterTwoOptionTwoSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+ 
+<TextView
+    android:id="@+id/parameterThreeOptionTwoText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="10pt">
+</TextView>
+
+<Spinner
+    android:id="@+id/parameterThreeOptionTwoSpinner"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:entries="@array/SpinnerList">
+</Spinner>
+
+<Button
+        android:id="@+id/optionTwoRated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_one_rated"
+   /> 
+    </LinearLayout>

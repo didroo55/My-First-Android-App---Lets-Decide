@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/White">
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:gravity="center"
+        android:textColor="@color/White"
+        android:textSize="27sp" 
+     />
+    <TextView
+       android:id="@+id/headerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="How do we Decide..."
+        android:gravity="center"
+       android:textColor="@color/DarkBlue"
+        android:textSize="27sp" 
+     />
+ 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:gravity="center"
+        android:textColor="@color/White"
+        android:textSize="27sp" 
+     />
+     
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The application uses one of the most logic and basic form of decision making – Weighted Average. For each decisions, you will key in three top contenders and three top criteria." 
+         
+        android:gravity="left"
+        android:textSize="10sp"
+        
+        android:textColor="@color/Black"/>
+     
+    
+       
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:gravity="center"
+        android:textColor="@color/White"
+        android:textSize="10sp" 
+     />
+       
+
+ <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You then rate each Contender for all the three parameters. The application uses the weighted average method and arrives at a final score for all three options." 
+        android:gravity="left"
+        android:textSize="10sp"
+        
+        android:textColor="@color/Black"/>
+     
+    
+       
+        <requestFocus />
+
+</LinearLayout>

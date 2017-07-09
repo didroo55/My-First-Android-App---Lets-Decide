@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/White">
+    
+    <TextView 
+    android:id="@+id/deccisionText"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/finalDecide"
+     android:textColor="@color/DarkBlue"
+      android:textSize="15pt"
+    android:gravity="center" />
+
+  <TextView 
+    android:id="@+id/finalDecision"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/Black"
+      android:textSize="20pt"
+    android:gravity="center" />
+    
+  
+    <TextView 
+    android:id="@+id/finalScoreOne"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/Black"
+      android:textSize="15pt"
+    android:gravity="center" />
+    
+      <TextView 
+    android:id="@+id/finalScoreTwo"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/Black"
+      android:textSize="15pt"
+    android:gravity="center" />
+      
+        <TextView 
+    android:id="@+id/finalScoreThree"
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/Black"
+      android:textSize="15pt"
+    android:gravity="center" />
+    
+<Button
+        android:id="@+id/finalDecisionToHome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Make Another Decision"
+   /> 
+   
+
+</LinearLayout>
